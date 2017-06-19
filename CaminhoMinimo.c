@@ -5,10 +5,11 @@
 #include<windows.h>
 #include<conio.h>
 
-/*A linguagem C não foi projetada para processadores de arquitetura Harvard com espaços de memória separados.
-Isso significa que existem várias formas não padronizadas de definir uma variável cujos dados residem na
-Memória de Programa (Flash).*/
+/*A linguagem C nÃ£o foi projetada para processadores de arquitetura Harvard com espaÃ§os de memÃ³ria separados.
+Isso significa que existem vÃ¡rias formas nÃ£o padronizadas de definir uma variÃ¡vel cujos dados residem na
+MemÃ³ria de Programa (Flash).*/
 #define FLSH gets(l)
+/* feito pelo txaka tolo */
 
 int destino, origem, vertices = 0, aresta = 0;
 int custo, *custos = NULL;
