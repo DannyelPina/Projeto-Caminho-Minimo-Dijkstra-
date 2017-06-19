@@ -9,7 +9,7 @@
 Isso significa que existem várias formas não padronizadas de definir uma variável cujos dados residem na
 Memória de Programa (Flash).*/
 #define FLSH gets(l)
-/* feito pelo txaka tolo */
+
 
 int destino, origem, vertices = 0, aresta = 0;
 int custo, *custos = NULL;
